@@ -1,0 +1,24 @@
+.grid-parent-01,
+.grid-parent-02 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+	justify-content: space-evenly;
+}
+
+.grid-child {
+	width:240px;
+	height:200px;
+}
+/*
+.grid-child::before { 
+  content: "$12.00";
+  color: red;
+}*/
+
+.grid-parent-02 {
+	grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}

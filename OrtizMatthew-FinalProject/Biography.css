@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+img#NF2 {
+   width: 35%;
+   margin: 0px auto;
+}
+
+p#bio {
+   width: 60%;
+   margin: 0px auto;
+}
+
+img#Artsy {
+   width: 40%;
+   margin: 5em auto;
+}
